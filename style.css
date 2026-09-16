@@ -1,0 +1,15 @@
+
+body{margin:0;background:#0a0a0a;color:#fff;font-family:Arial}
+nav{position:sticky;top:0;background:#111;padding:10px 20px;display:flex;justify-content:space-between}
+nav a{color:#ffb000;margin:8px;text-decoration:none}
+.hero{height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;
+background:linear-gradient(135deg,#111,#ff7b00);animation:glow 4s infinite alternate}
+@keyframes glow{from{filter:brightness(1)}to{filter:brightness(1.2)}}
+section{padding:50px 8%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:#151515;padding:20px;border:1px solid #ff9900;border-radius:15px;transition:.3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 0 20px #ff9900}
+.btn{background:#ff9900;color:#000;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:bold}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.gallery img{width:100%;border-radius:12px}
+footer{text-align:center;padding:40px;background:#111}
